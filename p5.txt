@@ -105,12 +105,12 @@ dirección SIP? Sí en este caso el nombre el usuario que realiza la llamada es
 ¿A qué crees que se debe esto? Ya que la respuesta al primer INVITE fue "necesita autenticación", en la segunda petición INVITE le manda el atributo nombrado en la pregunta anterior para que así el INVITE sea aceptado por el servidor.
 
 11. Una vez conectado, estudia el intercambio de tramas.
-* ¿Qué protocolo(s) se utiliza(n)? ¿Para qué sirven estos protocolos?
-* ¿Cuál es el tamaño de paquete de los mismos?
-* ¿Se utilizan bits de padding?
+* ¿Qué protocolo(s) se utiliza(n)? RTP y el codec H.261 ¿Para qué sirven estos protocolos? Son los protocolos encargados de mandar la comunicación en tiempo real.
+* ¿Cuál es el tamaño de paquete de los mismos? 214 bytes los RTP.
+* ¿Se utilizan bits de padding? No, porque en la cabecera figuran como 0 y no como 1.
 * ¿Cuál es la periodicidad de los paquetes (en origen; nota que la
-captura es en destino)?
-* ¿Cuántos bits/segundo se envı́an?
+captura es en destino)? Se envian aproximadamente 50 paquetes por segundo.
+* ¿Cuántos bits/segundo se envı́an? 33k en RTP.
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 
 12. Vamos a ver más a fondo el intercambio RTP. En Telephony hay una
