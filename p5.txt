@@ -137,8 +137,8 @@ dado. ¿Cuál? hasta el paquete 120.
 14. En Telephony selecciona el menú VoIP calls. Verás que se lista la
 llamada de voz IP capturada en una ventana emergente. Selecciona
 esa llamada y pulsa el botón Graph.
-* ¿Cuánto dura la conversación?
-* ¿Cuáles son sus SSRC? ¿Por qué hay varios SSRCs? ¿Hay CSRCs?
+* ¿Cuánto dura la conversación? Empieza a los 14 segundos y acaba a los 39 segundos, un total de 25 segundos de conversación.
+* ¿Cuáles son sus SSRC? 0xbf4afd37 y 0x43306582 ¿Por qué hay varios SSRCs? Porque hay dos flujos ¿Hay CSRCs? No hay.
 
 15. Identifica la trama donde se finaliza la conversación.
 * ¿Qué método SIP se utiliza?
