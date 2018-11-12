@@ -186,3 +186,6 @@ paquetes SIP como p5.pcapng. Abre el fichero guardado para cerciorarte de que lo
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 [Al terminar la práctica, realiza un push para sincronizar tu repositorio GitHub]
 
+
+Comentario final: He visto que se valora que existan commits de dos dias, pero me ha sido imposible hacer antes la practica por tener examenes de otras asignaturas. He hecho tantos commits como he podido pero son todos de hoy 12/11 cuando he podido realizar la practica.
+
