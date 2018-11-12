@@ -47,8 +47,9 @@ El resto de paquetes que no interfieren en la llamada como tal es lo que denomin
 Graphs. La captura que estamos viendo incluye desde la inicialización
 (registro) de la aplicación hasta su finalización, con una llamada entremedias.
 * Filtra por sip para conocer cuándo se envı́an paquetes SIP. ¿En
-qué segundos tienen lugar esos envı́os?
+qué segundos tienen lugar esos envı́os? En el segundo 7.34 se envia el primero y en el segundo 55.85 se envia el último paquete sip.
 * Y los paquetes con RTP, ¿cuándo se envı́an?
+En el segundo 17.16 se envia el primer paquete RTP identificado en wireshark como H.261 en la sección de protocolo, y el último se envia en el segundo 36.11 ya identificado como RTP en la sección de protocolo.
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 
 5. Analiza las dos primeras tramas de la captura.
