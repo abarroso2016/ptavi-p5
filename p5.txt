@@ -115,13 +115,13 @@ captura es en destino)? Se envian aproximadamente 50 paquetes por segundo.
 
 12. Vamos a ver más a fondo el intercambio RTP. En Telephony hay una
 opción RTP. Empecemos mirando los flujos RTP.
-* ¿Cuántos flujos hay? ¿por qué?
-* ¿Cuántos paquetes se pierden?
-* ¿Cuál es el valor máximo del delta? ¿Y qué es lo que significa el
-valor de delta?
-* ¿Cuáles son los valores de jitter (medio y máximo)? ¿Qué
-quiere decir eso? ¿Crees que estamos ante una conversación de
-calidad?
+* ¿Cuántos flujos hay? 2 ¿por qué? Porque es una conversación en estereo por tanto necesita dos flujos de audio.
+* ¿Cuántos paquetes se pierden? Ninguno.
+* ¿Cuál es el valor máximo del delta? 1290 ¿Y qué es lo que significa el
+valor de delta? es la diferencia entre la llegada de un paquete frente a la llegada del paquete anterior
+* ¿Cuáles son los valores de jitter (medio y máximo)? 183 máximo y 153 minimo para h261, y 119 máximo y 42 mínimo para g711a ¿Qué
+quiere decir eso? Que no hay mucho retardo ¿Crees que estamos ante una conversación de
+calidad? Sí por el valor del jitter y por no tener pérdida de paquetes.
 
 13. Elige un paquete RTP de audio. Analiza el flujo de audio en Telephony
 -> RTP -> Stream Analysis.
