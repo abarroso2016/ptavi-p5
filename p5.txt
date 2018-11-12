@@ -39,7 +39,7 @@ correspondiente al protocolo TCP y UDP.
 * ¿Cuál de los dos es mayor? UDP ¿Tiene esto sentido si estamos hablando
 de una aplicación que transmite en tiempo real?
 Sí ya que al no incluir información de control, reduce la información de paquetes por lo que es un protocolo más rápido que TCP y adecuado para transmisión de paquetes de información en tiempo real.
-* ¿Qué otros protocolos podemos ver en la jerarquı́a de protocolos? SIP, RTP, HTP, ARP.
+* ¿Qué otros protocolos podemos ver en la jerarquı́a de protocolos? SIP, RTP, HTP, ARP, STUN.
 ¿Cuales crees que son señal y cuales ruido? Todo lo relacionado con la llamada Voip son señales como los protocolos UDP, SIP, RTP.
 El resto de paquetes que no interfieren en la llamada como tal es lo que denominariamos "ruido".
 
@@ -68,8 +68,8 @@ que está respondiendo el servidor? El servidor le está mandando una direcció
 
 7. Hasta la trama 45 se puede observar una secuencia de tramas del
 protocolo STUN.
-* ¿Por qué se hace uso de este protocolo?
-* ¿Podrı́as decir si estamos tras un NAT o no?
+* ¿Por qué se hace uso de este protocolo? permite a clientes NAT encontrar su dirección pública, para configurar una comunicación UDP entre dos hosts.
+* ¿Podrı́as decir si estamos tras un NAT o no? Sí, ya que el cliente le pide una dirección de este tipo al servidor STUN mediante el uso de este protocolo.
 
 8. La trama 46 es la primera trama SIP. En un entorno como el de Internet, lo habitual es desconocer la dirección IP de la otra parte al
 realizar una llamada. Por eso, todo usuario registra su localización en
