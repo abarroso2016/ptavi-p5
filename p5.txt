@@ -141,9 +141,9 @@ esa llamada y pulsa el botón Graph.
 * ¿Cuáles son sus SSRC? 0xbf4afd37 y 0x43306582 ¿Por qué hay varios SSRCs? Porque hay dos flujos ¿Hay CSRCs? No hay.
 
 15. Identifica la trama donde se finaliza la conversación.
-* ¿Qué método SIP se utiliza?
-* ¿En qué trama(s)?
-* ¿Por qué crees que se envı́a varias veces?
+* ¿Qué método SIP se utiliza? El método BYE.
+* ¿En qué trama(s)? En las siguientes: 924, 925, 927, 933.
+* ¿Por qué crees que se envı́a varias veces? Para asegurarse que ese metodo SIP es recibido.
 
 16. Finalmente, se cierra la aplicación de VozIP.
 * ¿Por qué aparece una instrucción SIP del tipo REGISTER?
