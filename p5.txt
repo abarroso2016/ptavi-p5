@@ -98,11 +98,11 @@ con el servicio de eco de Ekiga que nos permite comprobar si nos
 hemos conectado correctamente. El servicio de eco tiene la dirección
 sip:500@ekiga.net. Veamos el INVITE de cerca.
 * ¿Puede verse el nombre del que efectúa la llamada, ası́ como su
-dirección SIP?
-* ¿Qué es lo que contiene el cuerpo de la trama? ¿En qué formato/protocolo está?
-* ¿Tiene éxito el primer intento? ¿Cómo lo sabes?
-* ¿En qué se diferencia el segundo INVITE más abajo del primero?
-¿A qué crees que se debe esto?
+dirección SIP? Sí en este caso el nombre el usuario que realiza la llamada es "Gregorio Robles" y su dirección sip es: sip:grex@ekiga.net
+* ¿Qué es lo que contiene el cuerpo de la trama? audio y video ¿En qué formato/protocolo está? SDP.
+* ¿Tiene éxito el primer intento? No tiene exito. ¿Cómo lo sabes? Porque el servidor le responde con un 407 authentication required.
+* ¿En qué se diferencia el segundo INVITE más abajo del primero? Este segundo lleva el atributo Proxy-Authorization.
+¿A qué crees que se debe esto? Ya que la respuesta al primer INVITE fue "necesita autenticación", en la segunda petición INVITE le manda el atributo nombrado en la pregunta anterior para que así el INVITE sea aceptado por el servidor.
 
 11. Una vez conectado, estudia el intercambio de tramas.
 * ¿Qué protocolo(s) se utiliza(n)? ¿Para qué sirven estos protocolos?
