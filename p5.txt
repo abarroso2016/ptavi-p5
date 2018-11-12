@@ -146,9 +146,10 @@ esa llamada y pulsa el botón Graph.
 * ¿Por qué crees que se envı́a varias veces? Para asegurarse que ese metodo SIP es recibido.
 
 16. Finalmente, se cierra la aplicación de VozIP.
-* ¿Por qué aparece una instrucción SIP del tipo REGISTER?
-* ¿En qué trama sucede esto?
+* ¿Por qué aparece una instrucción SIP del tipo REGISTER? Para eliminar el registro.
+* ¿En qué trama sucede esto? En la 950 lo intenta pero como no está autenticado lo vuelve a hacer ya autenticado en la 952.
 * ¿En qué se diferencia con la instrucción que se utilizó con anterioridad (al principio de la sesión)?
+En que aparece el atributo remove, indicando que esa dirección va a ser eliminada.
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 
 Captura de una sesión SIP
