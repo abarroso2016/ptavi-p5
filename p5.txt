@@ -85,13 +85,13 @@ INVITE, ACK ,BYE, CANCEL, OPTIONS, PRACK, SUBSCRIBE, NOTIFY, PUBLISH, INFO, REFE
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 
 9. Fijémonos en las tramas siguientes a la número 46:
-* ¿Se registra con éxito en el primer intento?
-* ¿Cómo sabemos si el registro se ha realizado correctamente o no?
+* ¿Se registra con éxito en el primer intento? No, ya que el servidor le responde con un 401 no autorizado.
+* ¿Cómo sabemos si el registro se ha realizado correctamente o no? Sabemos si el registro se ha realizado correctamente si el servidor le responde con un 200 ok, que sería la respuesta de un correcto registro.
 * ¿Podrı́as identificar las diferencias entre el primer intento y el
 segundo de registro? (fı́jate en el tamaño de los paquetes y mira
-a qué se debe el cambio)
+a qué se debe el cambio) El segundo intento es de mayor tamaño, ya que incluye el atributo "authorization" donde el cliente se identifica para que el servidor le deje acceder sin problemas. Como contiene mas atributos el paquete el tamaño por tanto es mayor en este caso.
 * ¿Cuánto es el valor del tiempo de expiración de la sesión? Indica
-las unidades.
+las unidades. 3600 segundos.
 
 10. Una vez registrados, podemos efectuar una llamada. Vamos a probar
 con el servicio de eco de Ekiga que nos permite comprobar si nos
