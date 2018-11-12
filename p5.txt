@@ -166,8 +166,8 @@ Ekiga para ver todo el proceso3 .
 
 19. Observa las diferencias en el inicio de la conversación entre el entorno
 del laboratorio y el del ejercicio anterior4 :
-* ¿Se utilizan DNS y STUN? ¿Por qué?
-* ¿Son diferentes el registro y la descripción de la sesión?
+* ¿Se utilizan DNS y STUN? ¿Por qué? Si, porque se trata de una dirección NAT y debe buscar su dirección pública y el DNS para la resolución de nombres.
+* ¿Son diferentes el registro y la descripción de la sesión? Son similares a la captura analizada anteriormente.
 
 20. Identifica las diferencias existentes entre esta conversación y la conversación anterior:
 * ¿Cuántos flujos tenemos?
