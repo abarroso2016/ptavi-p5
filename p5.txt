@@ -53,10 +53,10 @@ En el segundo 17.16 se envia el primer paquete RTP identificado en wireshark com
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 
 5. Analiza las dos primeras tramas de la captura.
-* ¿Qué servicio es el utilizado en estas tramas?
+* ¿Qué servicio es el utilizado en estas tramas? Se está utilizando un servicio de nombres DNS.
 * ¿Cuál es la dirección IP del servidor de nombres del ordenador
-que ha lanzado Ekiga?
-* ¿Qué dirección IP (de ekiga.net) devuelve el servicio de nombres?
+que ha lanzado Ekiga? 80.58.61.250
+* ¿Qué dirección IP (de ekiga.net) devuelve el servicio de nombres? 86.64.162.35
 
 6. A continuación, hay más de una docena de tramas TCP/HTTP.
 * ¿Podrı́as decir la URL que se está pidiendo?
