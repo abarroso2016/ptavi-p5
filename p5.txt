@@ -76,11 +76,12 @@ realizar una llamada. Por eso, todo usuario registra su localización en
 un servidor Registrar. El Registrar guarda información sobre los
 usuarios en un servidor de localización que puede ser utilizado para
 localizar usuarios.
-* ¿Qué dirección IP tiene el servidor Registrar?
+* ¿Qué dirección IP tiene el servidor Registrar? 86.64.162.35
 * ¿A qué puerto (del servidor Registrar) se envı́an los paquetes
-SIP?
-* ¿Qué método SIP utiliza el UA para registrarse?
+SIP? Al puerto 5060.
+* ¿Qué método SIP utiliza el UA para registrarse? metodo REGISTER.
 * Además de REGISTER, ¿podrı́as decir qué instrucciones SIP entiende el UA?
+INVITE, ACK ,BYE, CANCEL, OPTIONS, PRACK, SUBSCRIBE, NOTIFY, PUBLISH, INFO, REFER, MESSAGE, UPDATE, estas serían el resto de instruccciones que podrían mandar los UA a los servidores. 
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 
 9. Fijémonos en las tramas siguientes a la número 46:
