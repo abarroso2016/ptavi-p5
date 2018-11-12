@@ -170,14 +170,14 @@ del laboratorio y el del ejercicio anterior4 :
 * ¿Son diferentes el registro y la descripción de la sesión? Son similares a la captura analizada anteriormente.
 
 20. Identifica las diferencias existentes entre esta conversación y la conversación anterior:
-* ¿Cuántos flujos tenemos?
-* ¿Cuál es su periodicidad?
+* ¿Cuántos flujos tenemos? 6 flujos diferentes.
+* ¿Cuál es su periodicidad? Igual que en la captura anterior aproximadamente 50 paquetes por segundo.
 * ¿Cuánto es el valor máximo del delta y los valores medios y
-máximo del jitter?
-* ¿Podrı́as reproducir la conversación desde Wireshark? ¿Cómo?
+máximo del jitter? Delta maximo 162, jitter maximo 81.
+* ¿Podrı́as reproducir la conversación desde Wireshark? ¿Cómo? Si, desde la opción VoIP calls del menu telefony, hay una opción para reproducir.
 Comprueba que poniendo un valor demasiado pequeño para el
 buffer de jitter, la conversación puede no tener la calidad necesaria.
-* ¿Sabrı́as decir qué tipo de servicio ofrece sip:500@ekiga.net?
+* ¿Sabrı́as decir qué tipo de servicio ofrece sip:500@ekiga.net? es un servicio para poder realizar llamadas de prueba y ver la calidad de llamada que tienes.
 [Al terminar el ejercicio es recomendable hacer commit de los ficheros modificados]
 
 
