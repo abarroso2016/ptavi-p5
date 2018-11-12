@@ -36,10 +36,12 @@ La Ip donde se ha capturado es la 192.168.1.34, se trata de una dirección públ
 
 3. Antes de analizar las tramas, mira las estadı́sticas generales que aparecen en el menú de Statistics. En el apartado de jerarquı́a de protocolos (Protocol Hierarchy) se puede ver el porcentaje del tráfico
 correspondiente al protocolo TCP y UDP.
-* ¿Cuál de los dos es mayor? ¿Tiene esto sentido si estamos hablando
+* ¿Cuál de los dos es mayor? UDP ¿Tiene esto sentido si estamos hablando
 de una aplicación que transmite en tiempo real?
-* ¿Qué otros protocolos podemos ver en la jerarquı́a de protocolos?
-¿Cuales crees que son señal y cuales ruido?
+Sí ya que al no incluir información de control, reduce la información de paquetes por lo que es un protocolo más rápido que TCP y adecuado para transmisión de paquetes de información en tiempo real.
+* ¿Qué otros protocolos podemos ver en la jerarquı́a de protocolos? SIP, RTP, HTP, ARP.
+¿Cuales crees que son señal y cuales ruido? Todo lo relacionado con la llamada Voip son señales como los protocolos UDP, SIP, RTP.
+El resto de paquetes que no interfieren en la llamada como tal es lo que denominariamos "ruido".
 
 4. Observa por encima el flujo de tramas en el menú de Statistics en IO
 Graphs. La captura que estamos viendo incluye desde la inicialización
